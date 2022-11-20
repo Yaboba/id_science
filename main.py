@@ -29,7 +29,7 @@ def parser_html(id: int)->dict:
 
 def main():
     id_list = get_profiles()
-    data = {'id_science':[], 'fio':[], 'ORCID':[],
+    data = {'id_science':[], 'fio':[], 'ORCiD':[],
             'РИНЦ SPIN-код':[], 'Scopus Author ID':[],
             'ResearcherID':[], 'Google Scholar ID':[],
             'Profile Page':[], 'Personal Site':[]}
